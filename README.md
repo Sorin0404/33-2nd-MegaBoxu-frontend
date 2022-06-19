@@ -125,9 +125,14 @@ https://www.youtube.com/watch?v=9ZGdnBK5LDs
 ### 5. 예매 페이지
 
 ```
-
-
+- 상세페이지에서 영화 예매 클릭, 선텍한 영화 정보 location으로 받아와 state를 사용하여 저장 후 기본적으로 선택한 영화 정보 표출
+- 영화 날짜를 고르기 위하여 js date함수 사용한 날짜 슬라이드 구현
+- styled components를 활용하여 카테고리 선택 시, style 변화와 선택한 id에 맞게 영화포스터 표출 및 극장 표출
+- state를 활용한 다중 query string 필터 기능 구현
+- 각각 상황에 맞는 데이터를 활용하기 위하여 3개의 API를 받아 서버와 데이터 통신 
+- styled components와 상수 데이터를 활용하여, 영화 연령에 맞는 색상 표시
 ```
+
 ### 6. Nav / Footer
 
 ```
